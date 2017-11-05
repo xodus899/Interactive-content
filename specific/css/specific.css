@@ -1,0 +1,33 @@
+
+
+
+/*type selectors least specific*/
+
+body {
+	background:slategray;
+	color:red;
+}
+
+p {
+	color: yellow;
+}
+
+ul {
+	color: orange;
+}
+
+li {
+	color: white;
+}
+
+/*class specific 10 times more specific over type selector*/
+
+.highlight {
+	color: lime;
+}
+
+/*id specific 100 times more specific over type selector and 10 times over class.*/
+
+#highlight-special {
+	color:orange;
+}

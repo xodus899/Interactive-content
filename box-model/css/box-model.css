@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower');
+
+img {
+	height:35%;
+	width:35%;
+	float:right;
+	margin: 0 10px 0 0;
+	border:2px solid blue;
+}
+
+p {
+/*content width and height*/
+width:50%;
+height:50%;
+	
+/*border*/
+border: 2px solid blue;
+
+/*padding*/
+padding:10px;
+
+/*margin*/
+margin:10px;
+}
+
+/*font-family*/
+p {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*font-size*/
+body {
+	font-size: 10px
+}
+
+h1 {
+	font-size: 5em;
+}
+
+p {
+	font-size: 2em;
+}
+
+span {
+	font-size: 2em;
+}
+
+/*font-weight*/
+p {
+	font-weight: normal;
+}
+
+/*line-height*/
+p {
+	line-height: 1.5
+}
+
+/*text-align*/
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+span {
+	text-decoration: underline;
+}

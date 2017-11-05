@@ -1,0 +1,37 @@
+html,body {
+	cursor:wait;
+	border: 1px solid black;
+	background: #2c3539;
+	margin:0 auto;
+	padding:0;
+}
+
+h1 {
+	color: cornflowerblue;
+}
+h4 {
+	padding:0 0 0 5px;
+	color:orange;
+}
+li:nth-child(1) {
+    color: red;
+}
+li:nth-child(2) {
+    color: blue;
+}
+li:nth-child(3) {
+    color: lime;
+}
+
+#golf {
+	padding:50px 0 50px 10px;
+	background-image: url("../../images/golf.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+#water img {
+height:520px;
+width: 100%
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin:0 0 0 1.66%;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width:30%;
+	padding:20px 0 20px 0;
+}
+img {
+	width:30%;
+	float:left;
+	margin: 1.66%;
+}

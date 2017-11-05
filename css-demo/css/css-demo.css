@@ -1,0 +1,28 @@
+/*will select everything on the page*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*descendant selector - select with two or more tags */
+
+li a {
+	color: red;
+}
+
+/*adjactent selector select a sibling*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*attribute selector tag goes here[attribute goes here] */
+
+a[href='http://www.google.com'] {
+	background: yellow;
+}
+
+/*nth of type example will select only the 3rd child of the li*/
+li:nth-of-type(3){
+	color:orange;
+}
