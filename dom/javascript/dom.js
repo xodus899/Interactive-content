@@ -4,7 +4,7 @@ h1.style.color = "lime";
 let body = document.querySelector("body");
 let isBlue = false;
 
-setInterval(function() {
+setInterval(() => {
 	if (isBlue) {
 		body.style.background = "white";
 	} else {
