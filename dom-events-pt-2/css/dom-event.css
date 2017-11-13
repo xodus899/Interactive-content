@@ -1,0 +1,10 @@
+.done {
+  text-decoration: line-through;
+  opacity: 1;
+}
+
+.selected {
+  color: green;
+}
+
+
