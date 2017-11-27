@@ -2,6 +2,12 @@ body {
   background-color: #232323;
 }
 
+h1 {
+  color: white;
+  margin:0 auto;
+  text-align: center;
+}
+
 .container {
   width:50%;
   margin: 0 auto;
@@ -13,8 +19,17 @@ body {
   padding: 0 0 30% 0;
   float: left;
   margin: 1.66%;
+  border-radius: 40px;
 }
 
-h1 {
-  color: white;
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
 }
+
+.selected {
+  background-color: blue;
+}
+
